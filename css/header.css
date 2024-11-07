@@ -1,18 +1,43 @@
 /* Header */
-.header {
-	background-color: black;
-	color: white;
-	padding: 1em;
-	text-align: center;
-  }
-  
-  .header nav ul {
-	list-style: none;
-	padding: 0;
-  }
-  
-  .header nav ul li {
-	display: inline;
-	margin-right: 1em;
-  }
-  
+.header h1 {
+	background-color: white;
+	padding: 0em;
+    font-size: 3.5em;  /* Tamaño más grande para el título */
+    color: rgb(179, 107, 207);  /* Mantener el mismo color */
+    -webkit-text-stroke: 2px #6a2e9c;  /* Borde alrededor del texto */
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: rgba(179, 107, 207, 0.7); /* Fondo semi-transparente */
+    border-radius: 10px;  /* Bordes redondeados */
+    display: inline-block; /* Para que la lista no ocupe todo el ancho */
+    margin-top: 20px; /* Espacio desde el título */
+}
+
+/* Estilo para los enlaces dentro de la lista */
+.header nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+.header nav ul li a {
+    color: white;  /* Color del texto */
+    text-decoration: none;
+    padding: 10px 20px;  /* Espaciado dentro de cada enlace */
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* Efecto al pasar el mouse por encima del enlace */
+.header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo blanco semi-transparente */
+    color: rgb(179, 107, 207); /* Cambia el color del texto al pasar el mouse */
+    border-radius: 5px;  /* Bordes redondeados al pasar el mouse */
+}
