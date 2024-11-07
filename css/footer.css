@@ -1,15 +1,17 @@
   /* Footer */
   .footer {
-	background-color: black;
-	color: white;
+	background-color: rgb(255, 254, 254);
+	color: rgb(179, 107, 207);
 	text-align: center;
 	padding: 1em;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+	font-weight: bold;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   }
   .instagram-icon {
-	color: white;
+	color: rgb(238, 59, 152);
     fill: white; /* Blanco por defecto */
     transition: fill 0.3s ease;
 }
